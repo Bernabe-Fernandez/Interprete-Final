@@ -768,8 +768,16 @@ namespace com.calitha.goldparser
                             {
                                 return real[TablaSimbolo[i].indice];
                             }
+                            else if (TablaSimbolo[i].tipo == "cadena")
+                            {
+                                return cadena[TablaSimbolo[i].indice];
+                            }
+                            else if (TablaSimbolo[i].tipo == "caracter")
+                            {
+                                return caracter[TablaSimbolo[i].indice];
+                            }
                             else {
-                                errores = "Error de tipo: " + Convert.ToString(token.Tokens[0].UserObject) + " No es tipo entero o real";
+                                errores = "Error de tipo: " + Convert.ToString(token.Tokens[0].UserObject);
                             }
                             return null;
                         }

@@ -57,9 +57,11 @@ namespace Interprete_v1
             // 
             // TxtSalida
             // 
+            this.TxtSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSalida.Location = new System.Drawing.Point(8, 283);
             this.TxtSalida.Multiline = true;
             this.TxtSalida.Name = "TxtSalida";
+            this.TxtSalida.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.TxtSalida.Size = new System.Drawing.Size(428, 211);
             this.TxtSalida.TabIndex = 19;
             // 
@@ -87,9 +89,11 @@ namespace Interprete_v1
             // 
             // TxtError
             // 
+            this.TxtError.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtError.Location = new System.Drawing.Point(443, 283);
             this.TxtError.Multiline = true;
             this.TxtError.Name = "TxtError";
+            this.TxtError.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.TxtError.Size = new System.Drawing.Size(263, 211);
             this.TxtError.TabIndex = 16;
             // 
@@ -99,6 +103,7 @@ namespace Interprete_v1
             this.ID,
             this.Tipo,
             this.Valor});
+            this.LstVTabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LstVTabla.HideSelection = false;
             this.LstVTabla.Location = new System.Drawing.Point(443, 39);
             this.LstVTabla.Name = "LstVTabla";
@@ -121,9 +126,11 @@ namespace Interprete_v1
             // 
             // TxtSoftware
             // 
+            this.TxtSoftware.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSoftware.Location = new System.Drawing.Point(8, 39);
             this.TxtSoftware.Multiline = true;
             this.TxtSoftware.Name = "TxtSoftware";
+            this.TxtSoftware.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.TxtSoftware.Size = new System.Drawing.Size(428, 220);
             this.TxtSoftware.TabIndex = 14;
             // 
